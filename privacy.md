@@ -7,6 +7,9 @@ device. **We do not collect, transmit, or sell any of your personal
 information.** This policy explains, in plain language, exactly what the
 app does (and doesn't do) with your data.
 
+If anything here is unclear, you can reach the developer through the
+contact details listed on Rinyo's App Store page (under *Developer*).
+
 ---
 
 ## 1. Information we collect
@@ -125,6 +128,14 @@ If we ever make material changes to this policy, we will update the
 "Last updated" date at the top and, where reasonable, surface the
 change in-app on the next update. The latest version will always live at
 this URL.
+
+---
+
+## 9. Contact
+
+For privacy questions or requests, please use the contact details listed
+on Rinyo's App Store page (under *Developer*) — Apple displays the
+developer's official contact information for every app on the store.
 
 ---
 
