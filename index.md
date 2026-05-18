@@ -7,8 +7,15 @@ device. **We do not collect, transmit, or sell any of your personal
 information.** This policy explains, in plain language, exactly what the
 app does (and doesn't do) with your data.
 
+This policy applies to the Rinyo mobile application on both **iOS** and
+**Android**. Where a section refers to a platform-specific feature
+(for example, the system share sheet, secure key storage, or cloud
+file providers), the equivalent first-party facility on the other
+platform applies.
+
 If anything here is unclear, you can reach the developer through the
-contact details listed on Rinyo's App Store page (under *Developer*).
+contact details listed on Rinyo's App Store / Google Play listing
+(under *Developer* / *Developer contact*).
 
 ---
 
@@ -22,15 +29,16 @@ third-party SDKs that collect personal data.
 
 The information **you enter into the app** — borrower names, phone
 numbers, notes, loan amounts, interest rates, payments — is stored
-locally on your device using Apple's SwiftData framework. It is **never
-sent to us** or any third party.
+locally on your device using the platform's standard on-device database
+(Apple's SwiftData on iOS, and an equivalent local database on Android).
+It is **never sent to us** or any third party.
 
 ---
 
 ## 2. Information stored on your device
 
 The following data is stored on your device only, in the app's private
-sandbox:
+sandbox / private app storage:
 
 - Borrowers, loans, and payments you create
 - App preferences (currency, language, interest rules, number-grouping
@@ -49,17 +57,20 @@ Rinyo offers an **optional** backup feature. You — and only you —
 control where backups go.
 
 - **Manual backups**: when you tap *Share Backup*, the file is exported
-  through Apple's standard share sheet. You choose where it goes (Files,
-  iCloud Drive, AirDrop, email, etc.). Rinyo never uploads backups
+  through your operating system's standard share sheet (iOS Share Sheet
+  or Android Sharesheet). You choose where it goes (Files / Drive /
+  AirDrop / Nearby Share / email, etc.). Rinyo never uploads backups
   anywhere on its own.
 - **Automatic backups**: when enabled, Rinyo writes backup files to a
-  folder *you* pick (typically inside your iCloud Drive or local Files
-  directory). Rinyo does not have access to any other folder on your
-  device.
+  folder *you* pick (typically inside iCloud Drive, the Files app, or
+  on Android a location you select via the system file picker / Storage
+  Access Framework, such as Google Drive or local storage). Rinyo does
+  not have access to any other folder on your device.
 - **Encryption**: you can optionally protect backup files with a
   password. When enabled, backups are encrypted on your device using
   AES-256-GCM with a key derived from your password via PBKDF2-SHA256
-  (200 000 iterations). The password is stored in the iOS Keychain,
+  (200 000 iterations). The password is stored in the platform's secure
+  key store (the iOS Keychain or the Android Keystore / EncryptedSharedPreferences),
   which is encrypted by the operating system and accessible only to
   Rinyo.
 
@@ -78,8 +89,9 @@ your device is online or offline.
 The only times your data leaves the device are when you explicitly:
 
 - export or share a backup via the system share sheet, or
-- save automatic backups to a cloud folder you have configured in the
-  Files app (e.g. iCloud Drive, Dropbox via the Files extension).
+- save automatic backups to a cloud folder you have configured on your
+  device (e.g. iCloud Drive, Google Drive, Dropbox, or any other
+  provider exposed through your platform's file picker).
 
 Any subsequent handling of those files is governed by the privacy
 policy of the cloud provider you chose, not by Rinyo.
@@ -97,9 +109,10 @@ require an account.
 ## 6. Third-party services
 
 Rinyo does **not** integrate with any third-party advertising, analytics,
-crash-reporting, or attribution service. The app uses only Apple's
-first-party frameworks (SwiftUI, SwiftData, CryptoKit, Keychain
-Services).
+crash-reporting, or attribution service. The app uses only the
+operating system's first-party frameworks (on iOS: SwiftUI, SwiftData,
+CryptoKit, Keychain Services; on Android: the standard Jetpack
+libraries, the platform crypto APIs, and the Android Keystore).
 
 ---
 
@@ -134,10 +147,11 @@ this URL.
 ## 9. Contact
 
 For privacy questions or requests, please use the contact details listed
-on Rinyo's App Store page (under *Developer*) — Apple displays the
-developer's official contact information for every app on the store.
+on Rinyo's App Store or Google Play listing (under *Developer* /
+*Developer contact*) — both stores display the developer's official
+contact information for every app.
 
 ---
 
-_Rinyo is operated by Binay Singh. This policy applies to the Rinyo iOS
-application only._
+_Rinyo is operated by Binay Singh. This policy applies to the Rinyo
+mobile application on iOS and Android._
