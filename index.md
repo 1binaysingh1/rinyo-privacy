@@ -1,20 +1,20 @@
-# Rinyo — Privacy Policy
+# RinTrack — Privacy Policy
 
-_Last updated: 12 May 2026_
+_Last updated: 21 May 2026_
 
-Rinyo is a personal-loan tracker. It is designed to work entirely on your
+RinTrack is a personal-loan tracker. It is designed to work entirely on your
 device. **We do not collect, transmit, or sell any of your personal
 information.** This policy explains, in plain language, exactly what the
 app does (and doesn't do) with your data.
 
-This policy applies to the Rinyo mobile application on both **iOS** and
+This policy applies to the RinTrack mobile application on both **iOS** and
 **Android**. Where a section refers to a platform-specific feature
 (for example, the system share sheet, secure key storage, or cloud
 file providers), the equivalent first-party facility on the other
 platform applies.
 
 If anything here is unclear, you can reach the developer through the
-contact details listed on Rinyo's App Store / Google Play listing
+contact details listed on RinTrack's App Store / Google Play listing
 (under *Developer* / *Developer contact*).
 
 ---
@@ -23,7 +23,7 @@ contact details listed on Rinyo's App Store / Google Play listing
 
 **None.**
 
-Rinyo does not have user accounts. We do not ask you to sign in. We do
+RinTrack does not have user accounts. We do not ask you to sign in. We do
 not run analytics or telemetry, do not track usage, and do not embed any
 third-party SDKs that collect personal data.
 
@@ -53,18 +53,18 @@ Erase All Data** inside the app.
 
 ## 3. Backups
 
-Rinyo offers an **optional** backup feature. You — and only you —
+RinTrack offers an **optional** backup feature. You — and only you —
 control where backups go.
 
 - **Manual backups**: when you tap *Share Backup*, the file is exported
   through your operating system's standard share sheet (iOS Share Sheet
   or Android Sharesheet). You choose where it goes (Files / Drive /
-  AirDrop / Nearby Share / email, etc.). Rinyo never uploads backups
+  AirDrop / Nearby Share / email, etc.). RinTrack never uploads backups
   anywhere on its own.
-- **Automatic backups**: when enabled, Rinyo writes backup files to a
+- **Automatic backups**: when enabled, RinTrack writes backup files to a
   folder *you* pick (typically inside iCloud Drive, the Files app, or
   on Android a location you select via the system file picker / Storage
-  Access Framework, such as Google Drive or local storage). Rinyo does
+  Access Framework, such as Google Drive or local storage). RinTrack does
   not have access to any other folder on your device.
 - **Encryption**: you can optionally protect backup files with a
   password. When enabled, backups are encrypted on your device using
@@ -72,7 +72,7 @@ control where backups go.
   (200 000 iterations). The password is stored in the platform's secure
   key store (the iOS Keychain or the Android Keystore / EncryptedSharedPreferences),
   which is encrypted by the operating system and accessible only to
-  Rinyo.
+  RinTrack.
 
 Backup files are your data, in your storage. We have no way to access
 them.
@@ -81,7 +81,7 @@ them.
 
 ## 4. Network access
 
-**Rinyo does not make network requests.** The app has no analytics
+**RinTrack does not make network requests.** The app has no analytics
 endpoint, no remote configuration, no advertising network, and no
 third-party error reporting. The app will function the same whether
 your device is online or offline.
@@ -94,13 +94,13 @@ The only times your data leaves the device are when you explicitly:
   provider exposed through your platform's file picker).
 
 Any subsequent handling of those files is governed by the privacy
-policy of the cloud provider you chose, not by Rinyo.
+policy of the cloud provider you chose, not by RinTrack.
 
 ---
 
 ## 5. Children's privacy
 
-Rinyo does not knowingly collect any data from anyone, including
+RinTrack does not knowingly collect any data from anyone, including
 children under 13. The app does not contain advertising and does not
 require an account.
 
@@ -108,7 +108,7 @@ require an account.
 
 ## 6. Third-party services
 
-Rinyo does **not** integrate with any third-party advertising, analytics,
+RinTrack does **not** integrate with any third-party advertising, analytics,
 crash-reporting, or attribution service. The app uses only the
 operating system's first-party frameworks (on iOS: SwiftUI, SwiftData,
 CryptoKit, Keychain Services; on Android: the standard Jetpack
@@ -118,7 +118,7 @@ libraries, the platform crypto APIs, and the Android Keystore).
 
 ## 7. Your rights
 
-Because Rinyo does not collect or transmit any of your data, there is
+Because RinTrack does not collect or transmit any of your data, there is
 no central record for us to access, modify, or delete on your behalf.
 You retain full control of your data on your device:
 
@@ -147,11 +147,11 @@ this URL.
 ## 9. Contact
 
 For privacy questions or requests, please use the contact details listed
-on Rinyo's App Store or Google Play listing (under *Developer* /
+on RinTrack's App Store or Google Play listing (under *Developer* /
 *Developer contact*) — both stores display the developer's official
 contact information for every app.
 
 ---
 
-_Rinyo is operated by Binay Singh. This policy applies to the Rinyo
+_RinTrack is operated by Binay Singh. This policy applies to the RinTrack
 mobile application on iOS and Android._
